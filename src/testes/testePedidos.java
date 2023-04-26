@@ -28,5 +28,6 @@ public class testePedidos {
         }
         System.out.println(clientePF);
         System.out.println("teste 1");
+        System.out.println("teste1");
     }
 }
