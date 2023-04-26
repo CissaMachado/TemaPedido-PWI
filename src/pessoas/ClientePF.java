@@ -34,11 +34,29 @@ public final class ClientePF extends Cliente {
         this.telefone = telefone;
     }
 
-    public Set<Pedido> getPedidos() {
-        return pedidos;
-    }
+
+   // public Set<Pedido> getPedidos() {
+       // return pedidos;
+    //}
 
     public void setPedidos(Set<Pedido> pedidos) {
         this.pedidos = pedidos;
+    }
+
+    public void adicionarPedido(Pedido pedido) {
+        pedidos.add(pedido);
+    }
+
+    public void removerPedido(Pedido pedido) {
+        pedidos.remove(pedido);
+    }
+
+    @Override
+    public String toString() {
+        return "ClientePF{" +
+                "cpf='" + cpf + '\'' +
+                ", telefone='" + telefone + '\'' +
+                ", pedidos=" + pedidos +
+                '}';
     }
 }
