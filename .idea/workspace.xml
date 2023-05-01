@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fb7c88bb-2a93-472a-97ef-4fc577324d99" name="Changes" comment="feat: add readme">
+    <list default="true" id="fb7c88bb-2a93-472a-97ef-4fc577324d99" name="Changes" comment="feat: new teste in pedido classs">
+      <change afterPath="$PROJECT_DIR$/src/menu/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/menu/MenuEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pedidos/Item_Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pedidos/Item_Pedido.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pedidos/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pedidos/Pedido.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pessoas/ClientePF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pessoas/ClientePF.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/testes/testePedidos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/testes/testePedidos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/Validador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/Validador.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,9 +20,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -35,7 +42,11 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/User/Downloads/TemaPedido",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -75,7 +86,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682469555045</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="feat: new teste in pedido classs">
+      <created>1682540025770</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1682540025770</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -92,7 +110,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: criação das classes com seus atributos/get/set" />
     <MESSAGE value="feat: add readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add readme" />
+    <MESSAGE value="feat: new teste in pedido classs" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: new teste in pedido classs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

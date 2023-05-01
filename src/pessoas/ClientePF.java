@@ -9,9 +9,9 @@ public final class ClientePF extends Cliente {
 
     private String cpf;
     private String telefone;
-    Set<Pedido> pedidos = new TreeSet<>();
+    private Set<Pedido> pedidos = new TreeSet<>();
 
-    public ClientePF(String nome, String endereco, String cpf, String telefone, Set<Pedido> pedidos) {
+    public ClientePF(String nome, String endereco, String cpf, String telefone,Set<Pedido> pedidos) {
         super(nome, endereco);
         this.cpf = cpf;
         this.telefone = telefone;
@@ -34,10 +34,9 @@ public final class ClientePF extends Cliente {
         this.telefone = telefone;
     }
 
-
-   // public Set<Pedido> getPedidos() {
-       // return pedidos;
-    //}
+    public Set<Pedido> getPedidos() {
+        return pedidos;
+    }
 
     public void setPedidos(Set<Pedido> pedidos) {
         this.pedidos = pedidos;
@@ -53,10 +52,11 @@ public final class ClientePF extends Cliente {
 
     @Override
     public String toString() {
-        return "ClientePF{" +
-                "cpf='" + cpf + '\'' +
-                ", telefone='" + telefone + '\'' +
-                ", pedidos=" + pedidos +
-                '}';
+        return "ClientePF: " + '\n' +
+                "Nome: " + getNome() + '\n' +
+                "Endereço: " + getEndereco() + '\n' +
+                "CPF: " + cpf + '\n' +
+                "Telefone: " + telefone + '\n' +
+                "Pedidos: " + pedidos + '\n';
     }
 }

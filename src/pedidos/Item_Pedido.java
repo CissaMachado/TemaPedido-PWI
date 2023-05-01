@@ -38,10 +38,9 @@ public class Item_Pedido {
 
     @Override
     public String toString() {
-        return "Item_Pedido: " +
-                "quantidade: " + quantidade +
-                ", descricao: '" + descricao + '\'' +
-                ", valor: " + valor +
-                '.';
+        return "\nItens: " + '\n' +
+                "quantidade: " + quantidade + '\n' +
+                "descricao: " + descricao + '\n' +
+                "valor: " + valor ;
     }
 }
